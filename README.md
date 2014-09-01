@@ -18,4 +18,4 @@ Download moveHover and reference it after jQuery.
 `$("#image1").movehover();`
 
 ###Contributing
-Feel free to send me pull requests for suggestions, optimization, bug reports, etc.
+Feel free to send pull requests for suggestions, optimization, etc.
