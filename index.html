@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>moveHover</title>
+	<script src="http://code.jquery.com/jquery-2.1.0.min.js"></script>
+	<script src="js/movehover.min.js"></script>
+	<link rel="stylesheet" href="css/movehover.css" type="text/css">
+</head>
+<body>
+	<div id="image1" class="movehover"><img src="img/01.jpg"></div>
+	<div id="image2" class="movehover-rect"><img src="img/01.jpg"></div>
+
+	<script type="text/javascript">
+	$(document).ready(function(){
+		$("#image1").movehover();
+		$("#image2").movehover();
+	});
+	</script>
+</body>
+</html>
